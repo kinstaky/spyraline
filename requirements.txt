@@ -1,0 +1,5 @@
+-e Spyral
+matplotlib
+mplcursors
+ipympl
+ipython

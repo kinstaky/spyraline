@@ -1,0 +1,3 @@
+[submodule "Spyral"]
+	path = Spyral
+	url = https://github.com/kinstaky/Spyral.git
