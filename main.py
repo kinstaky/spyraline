@@ -25,12 +25,12 @@ from spyral import (
 from pathlib import Path
 import multiprocessing
 
-workspace_path = Path("/data/sustech/user/pupu/spyraline/")
-trace_path = Path("/data/tempMergedData/E565/")
+workspace_path = Path("/data/pwl/spyraline/")
+trace_path = Path("/data/rcnp-2025-e565/hdf5/")
 
-run_min = 1056
-run_max = 1056
-runs_to_skip = []
+run_min = 1025
+run_max = 1075
+runs_to_skip = [1052, 1069]
 n_processes = 4
 
 pad_params = PadParameters(

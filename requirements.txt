@@ -2,4 +2,4 @@
 matplotlib
 mplcursors
 ipympl
-ipython
+ipykernel
